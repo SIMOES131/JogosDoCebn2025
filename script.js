@@ -9,7 +9,7 @@ const jogos = [
     hora: "17:00",
     jogo: "CEBN X CONVENIADA",
     modalidade: "Handebol Feminino Sub 15",
-    ordem: "1 jogo",
+    ordem: "jogo 1",
     local: "Ginásio de Esportes",
   },
 
@@ -19,7 +19,7 @@ const jogos = [
     hora: "10:40",
     jogo: "CETI X CEBN",
     modalidade: "Vôlei Masculino Sub 17",
-    ordem: "48 jogo",
+    ordem: "jogo 48",
     local: "CEJA",
   },
   {
@@ -27,7 +27,7 @@ const jogos = [
     hora: "12:00",
     jogo: "CONVENIADA X CEBN",
     modalidade: "Handebol Feminino Sub 15",
-    ordem: "50 jogo",
+    ordem: "jogo 50",
     local: "CEJA",
   },
   {
@@ -35,7 +35,7 @@ const jogos = [
     hora: "12:00",
     jogo: "CEBN X CONVENIADA",
     modalidade: "Baleado Feminino Sub 13",
-    ordem: "71 jogo",
+    ordem: "jogo 71",
     local: "CEBN",
   },
   {
@@ -43,7 +43,7 @@ const jogos = [
     hora: "12:40",
     jogo: "CEBN X CONVENIADA",
     modalidade: "Baleado Masculino Sub 15",
-    ordem: "72 jogo",
+    ordem: "jogo 72",
     local: "CEBN",
   },
   {
@@ -51,7 +51,7 @@ const jogos = [
     hora: "13:20",
     jogo: "CEBC X CEBN",
     modalidade: "Baleado Masculino Sub 13",
-    ordem: "73 jogo",
+    ordem: "jogo 73",
     local: "CEBN",
   },
   {
@@ -59,7 +59,7 @@ const jogos = [
     hora: "14:00",
     jogo: "CEBN X CEBC",
     modalidade: "Handebol Masculino Sub 13",
-    ordem: "74 jogo",
+    ordem: "jogo 74",
     local: "CEBN",
   },
   {
@@ -67,7 +67,7 @@ const jogos = [
     hora: "14:40",
     jogo: "CEJA X CEBN",
     modalidade: "Futsal Masculino Sub 13",
-    ordem: "75 jogo",
+    ordem: "jogo 75",
     local: "CEBN",
   },
   {
@@ -75,7 +75,7 @@ const jogos = [
     hora: "15:20",
     jogo: "CEBN X CEBC",
     modalidade: "Futsal Masculino Sub 15",
-    ordem: "76 jogo",
+    ordem: "jogo 76",
     local: "CEBN",
   },
   // inclusão do jogo que estava em "outro ginásio" no texto original
@@ -84,7 +84,7 @@ const jogos = [
     hora: "14:40",
     jogo: "CEBN X CEJA",
     modalidade: "Futsal Feminino Sub 13",
-    ordem: "40 jogo",
+    ordem: "jogo 40",
     local: "Maria da Glória",
   },
 
@@ -94,7 +94,7 @@ const jogos = [
     hora: "16:00",
     jogo: "CEBC X CEBN",
     modalidade: "Vôlei Masculino Sub 17",
-    ordem: "112 jogo",
+    ordem: "jogo 112",
     local: "Adelieta Ramalho",
   },
   {
@@ -102,7 +102,7 @@ const jogos = [
     hora: "08:40",
     jogo: "CEBN X CEBC",
     modalidade: "Baleado Feminino Sub 15",
-    ordem: "115 jogo",
+    ordem: "jogo 115",
     local: "Maria da Glória",
   },
   {
@@ -110,7 +110,7 @@ const jogos = [
     hora: "10:40",
     jogo: "CEJA X CEBN",
     modalidade: "Handebol Masculino Sub 13",
-    ordem: "118 jogo",
+    ordem: "jogo 118",
     local: "Maria da Glória",
   },
   {
@@ -118,7 +118,7 @@ const jogos = [
     hora: "12:40",
     jogo: "CEBN X CEJA",
     modalidade: "Futsal Feminino Sub 15",
-    ordem: "135 jogo",
+    ordem: "jogo 135",
     local: "CEJA",
   },
   {
@@ -126,7 +126,7 @@ const jogos = [
     hora: "14:40",
     jogo: "CONVENIADA X CEBN",
     modalidade: "Baleado Feminino Sub 15",
-    ordem: "138 jogo",
+    ordem: "jogo 138",
     local: "CEJA",
   },
   {
@@ -134,7 +134,7 @@ const jogos = [
     hora: "15:20",
     jogo: "CEBN X JOSÉ DIAS",
     modalidade: "Futsal Feminino Sub 13",
-    ordem: "125 jogo",
+    ordem: "jogo 125",
     local: "Maria da Glória",
   },
   {
@@ -142,7 +142,7 @@ const jogos = [
     hora: "16:00",
     jogo: "EMILIANO ZAPATA X CEBN",
     modalidade: "Futsal Masculino Sub 13",
-    ordem: "126 jogo",
+    ordem: "jogo 126",
     local: "Maria da Glória",
   },
   {
@@ -150,7 +150,7 @@ const jogos = [
     hora: "13:20",
     jogo: "CEBN X CEJA",
     modalidade: "Baleado Masculino Sub 13",
-    ordem: "192 jogo",
+    ordem: "jogo 192",
     local: "Adelieta Ramalho",
   },
 
@@ -160,7 +160,7 @@ const jogos = [
     hora: "11:20",
     jogo: "CONVENIADA X CEBN",
     modalidade: "Handebol Masculino Sub 13",
-    ordem: "168 jogo",
+    ordem: "jogo 168",
     local: "Ginásio de Esportes",
   },
   {
@@ -168,7 +168,7 @@ const jogos = [
     hora: "14:00",
     jogo: "CEBN X LUCIA ROCHA",
     modalidade: "Vôlei Misto Aberto",
-    ordem: "171 jogo",
+    ordem: "jogo 171",
     local: "Ginásio de Esportes",
   },
   {
@@ -176,7 +176,7 @@ const jogos = [
     hora: "14:00",
     jogo: "CEBN X CEJA",
     modalidade: "Baleado Feminino Sub 13",
-    ordem: "207 jogo",
+    ordem: "jogo 207",
     local: "Maria da Glória",
   },
   {
@@ -184,7 +184,7 @@ const jogos = [
     hora: "11:20",
     jogo: "CEBN X JOSENILDO LEITE",
     modalidade: "Futsal Masculino Sub 13",
-    ordem: "203 jogo",
+    ordem: "jogo 203",
     local: "Maria da Glória",
   },
   {
@@ -192,7 +192,7 @@ const jogos = [
     hora: "08:40",
     jogo: "EMILIANO ZAPATA X CEBN",
     modalidade: "Futsal Masculino Sub 15",
-    ordem: "213 jogo",
+    ordem: "jogo 213",
     local: "CEJA",
   },
   {
@@ -200,7 +200,7 @@ const jogos = [
     hora: "12:00",
     jogo: "CEBN X CONVENIADA",
     modalidade: "Futsal Feminino Sub 13",
-    ordem: "218 jogo",
+    ordem: "jogo 218",
     local: "CEJA",
   },
   {
@@ -208,7 +208,7 @@ const jogos = [
     hora: "13:20",
     jogo: "JOSÉ DIAS X CEBN",
     modalidade: "Futsal Feminino Sub 15",
-    ordem: "220 jogo",
+    ordem: "jogo 220",
     local: "CEJA",
   },
   {
@@ -216,7 +216,7 @@ const jogos = [
     hora: "14:40",
     jogo: "CEBN X CONVENIADA",
     modalidade: "Futsal Masculino Sub 15",
-    ordem: "222 jogo",
+    ordem: "jogo 222",
     local: "CEJA",
   },
 ];
@@ -246,7 +246,7 @@ Object.keys(jogosPorDia)
     h2.textContent = `${dtParts[2]}/${dtParts[1]}/${dtParts[0]}`;
     const meta = document.createElement("div");
     meta.className = "meta";
-    meta.textContent = `${jogosPorDia[data].length} jogo(s) — mostrar apenas CEBN`;
+    meta.textContent = `${jogosPorDia[data].length} jogo(s)`;
 
     header.appendChild(h2);
     header.appendChild(meta);
