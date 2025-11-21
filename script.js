@@ -13,7 +13,7 @@ const jogos = [
     local: "Ginásio de Esportes",
   },
 
-  // 26/11/2025 - vários locais (mapeado conforme bloco onde apareceu)
+  // 26/11/2025 - vários locais
   {
     data: "2025-11-26",
     hora: "10:40",
@@ -78,7 +78,6 @@ const jogos = [
     ordem: "jogo 76",
     local: "CEBN",
   },
-  // inclusão do jogo que estava em "outro ginásio" no texto original
   {
     data: "2025-11-26",
     hora: "14:40",
@@ -241,9 +240,10 @@ Object.keys(jogosPorDia)
     const header = document.createElement("div");
     header.className = "dia-header";
     const h2 = document.createElement("h2");
-    // formata data YYYY-MM-DD para DD/MM/YYYY
+
     const dtParts = data.split("-");
     h2.textContent = `${dtParts[2]}/${dtParts[1]}/${dtParts[0]}`;
+
     const meta = document.createElement("div");
     meta.className = "meta";
     meta.textContent = `${jogosPorDia[data].length} jogo(s)`;
@@ -256,30 +256,33 @@ Object.keys(jogosPorDia)
     const cards = document.createElement("div");
     cards.className = "cards";
 
-    jogosPorDia[data].forEach((jogo) => {
-      const card = document.createElement("article");
-      card.className = "card";
-      if (data === dataAtual) card.classList.add("destaque");
+    // === ORDENAR PELOS HORÁRIOS ===
+    jogosPorDia[data]
+      .sort((a, b) => a.hora.localeCompare(b.hora))
+      .forEach((jogo) => {
+        const card = document.createElement("article");
+        card.className = "card";
+        if (data === dataAtual) card.classList.add("destaque");
 
-      card.innerHTML = `
-      <div class="top-row">
-        <div class="time">${jogo.hora}</div>
-        <div class="badge-local">${jogo.local}</div>
-      </div>
+        card.innerHTML = `
+          <div class="top-row">
+            <div class="time">${jogo.hora}</div>
+            <div class="badge-local">${jogo.local}</div>
+          </div>
 
-      <div class="teams">${escapeHtml(jogo.jogo)}</div>
-      <div class="modalidade">${jogo.modalidade}</div>
-      <div class="ordem">Ordem: ${jogo.ordem}</div>
-    `;
+          <div class="teams">${escapeHtml(jogo.jogo)}</div>
+          <div class="modalidade">${jogo.modalidade}</div>
+          <div class="ordem">Ordem: ${jogo.ordem}</div>
+        `;
 
-      cards.appendChild(card);
-    });
+        cards.appendChild(card);
+      });
 
     bloco.appendChild(cards);
     container.appendChild(bloco);
   });
 
-/* Pequena função de escape para evitar injeção caso dados mudem */
+/* Pequena função de escape para evitar injeção no HTML */
 function escapeHtml(str) {
   return String(str)
     .replace(/&/g, "&amp;")
