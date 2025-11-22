@@ -158,3 +158,47 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   }
 }
+
+/* ... (Seu código CSS anterior) ... */
+
+/* Estilos para o bloco de filtros (NOVO) */
+.filters {
+  text-align: center;
+  margin-bottom: 24px;
+  /* Garante que os botões não atrapalhem a sombra do dia */
+  position: relative;
+  z-index: 2;
+}
+
+.filter-btn {
+  /* Estilos base do botão */
+  background-color: var(--card);
+  color: var(--accent);
+  border: 2px solid var(--accent);
+  padding: 10px 18px;
+  margin: 0 6px;
+  border-radius: 999px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease, color 0.2s ease,
+    border-color 0.2s ease;
+  box-shadow: 0 3px 10px rgba(0, 51, 102, 0.1);
+}
+
+.filter-btn:hover:not(.active) {
+  background-color: var(--accent);
+  color: var(--card);
+  /* Borda transparente para não mudar o tamanho */
+  border-color: transparent;
+}
+
+/* Estado Ativo/Selecionado */
+.filter-btn.active {
+  background-color: var(--accent);
+  color: var(--card);
+  border-color: var(--accent);
+  box-shadow: 0 5px 15px rgba(0, 51, 102, 0.3);
+}
+
+/* ... (Restante do seu código CSS) ... */
