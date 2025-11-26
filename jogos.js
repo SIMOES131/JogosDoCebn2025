@@ -998,6 +998,14 @@ export const jogos = [
   },
   {
     data: "2025-11-27",
+    hora: "13:00",
+    jogo: "PORTAL DO SABER X MARIA DA GLORIA",
+    modalidade: "Baleado Feminino Sub 9",
+    ordem: "jogo S/N",
+    local: "Maria da Glória",
+  },
+  {
+    data: "2025-11-27",
     hora: "13:20",
     jogo: "MARIA DA GLORIA X EMILIANO ZAPATA",
     modalidade: "Futsal Masculino Sub 11",
