@@ -201,4 +201,103 @@ body {
   box-shadow: 0 5px 15px rgba(0, 51, 102, 0.3);
 }
 
-/* ... (Restante do seu código CSS) ... */
+/* Estilos para o select de escolas - mesmo estilo dos botões */
+.select-container {
+  position: relative;
+  display: inline-block;
+  margin: 0 6px;
+}
+
+.school-select {
+  /* Estilos base do botão */
+  background-color: var(--card);
+  color: var(--accent);
+  border: 2px solid var(--accent);
+  padding: 10px 40px 10px 18px;
+  border-radius: 999px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease, color 0.2s ease,
+    border-color 0.2s ease;
+  box-shadow: 0 3px 10px rgba(0, 51, 102, 0.1);
+
+  /* Estilo do select */
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23003366' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  background-size: 14px;
+  min-width: 200px;
+  text-align: center;
+}
+
+.school-select:hover:not([value="all"]) {
+  background-color: var(--accent);
+  color: var(--card);
+  border-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+}
+
+/* Estado quando uma escola está selecionada */
+.school-select:not([value="all"]) {
+  background-color: var(--accent);
+  color: var(--card);
+  border-color: var(--accent);
+  box-shadow: 0 5px 15px rgba(0, 51, 102, 0.3);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+}
+
+.school-select:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(0, 51, 102, 0.2);
+}
+
+/* Ajuste nos botões de filtro para incluir o select */
+.filters {
+  text-align: center;
+  margin-bottom: 24px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .select-container {
+    margin: 0;
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .school-select {
+    min-width: 100%;
+    width: 100%;
+  }
+
+  .filter-btn {
+    width: 100%;
+    max-width: 280px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .filters {
+    flex-wrap: wrap;
+  }
+
+  .school-select {
+    min-width: 180px;
+  }
+}

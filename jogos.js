@@ -19,7 +19,7 @@ export const jogos = [
   {
     data: "2025-11-25",
     hora: "18:40",
-    jogo: "CEBC CETI",
+    jogo: "CEBC X CETI",
     modalidade: "Futsal Feminino Sub 17",
     ordem: "jogo 3",
     local: "Ginásio de Esportes",
@@ -212,11 +212,10 @@ export const jogos = [
     ordem: "jogo 26",
     local: "Adelieta Ramalho",
   },
-  // JOGO FALTANTE 1 - ADICIONADO
   {
     data: "2025-11-26",
     hora: "09:20",
-    jogo: "JOSE DIAS X MANOEL RAMOS",
+    jogo: "JOSÉ DIAS X MANOEL RAMOS",
     modalidade: "Baleado Feminino Sub 11",
     ordem: "jogo 27",
     local: "Adelieta Ramalho",
@@ -232,12 +231,11 @@ export const jogos = [
   {
     data: "2025-11-26",
     hora: "11:20",
-    jogo: "ADELIETA X JOSÉ DIAS",
+    jogo: "ADELIETA RAMALHO X JOSÉ DIAS",
     modalidade: "Baleado Masculino Sub 13",
     ordem: "jogo 29",
     local: "Adelieta Ramalho",
   },
-  // JOGO FALTANTE 2 - ADICIONADO
   {
     data: "2025-11-26",
     hora: "11:30",
@@ -265,7 +263,7 @@ export const jogos = [
   {
     data: "2025-11-26",
     hora: "15:20",
-    jogo: "EMILIANO ZAPATA X JOSE DIAS",
+    jogo: "EMILIANO ZAPATA X JOSÉ DIAS",
     modalidade: "Futsal Masculino Sub 11",
     ordem: "jogo 33",
     local: "Adelieta Ramalho",
@@ -307,7 +305,7 @@ export const jogos = [
   {
     data: "2025-11-26",
     hora: "12:40",
-    jogo: "JOSE DIAS X PORTAL DO SABER",
+    jogo: "JOSÉ DIAS X PORTAL DO SABER",
     modalidade: "Futsal Masculino Sub 8",
     ordem: "jogo 38",
     local: "Maria da Glória",
@@ -355,7 +353,7 @@ export const jogos = [
   {
     data: "2025-11-26",
     hora: "16:40",
-    jogo: "JOSE DIAS X CONVENIADA",
+    jogo: "JOSÉ DIAS X CONVENIADA",
     modalidade: "Futsal Feminino Sub 13",
     ordem: "jogo 44",
     local: "Maria da Glória",
@@ -405,7 +403,7 @@ export const jogos = [
   {
     data: "2025-11-26",
     hora: "11:20",
-    jogo: "CONVENIADA X JOSE DIAS",
+    jogo: "CONVENIADA X JOSÉ DIAS",
     modalidade: "Handebol Masculino Sub 15",
     ordem: "jogo 50",
     local: "CEJA",
@@ -471,7 +469,7 @@ export const jogos = [
   {
     data: "2025-11-26",
     hora: "08:00",
-    jogo: "ADELIETA X FRANCISCO AMORIM",
+    jogo: "ADELIETA RAMALHO X FRANCISCO AMORIM",
     modalidade: "Futsal Masculino Sub 8",
     ordem: "jogo 58",
     local: "CETI",
