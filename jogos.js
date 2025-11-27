@@ -837,7 +837,7 @@ export const jogos = [
   {
     data: "2025-11-27",
     hora: "09:20",
-    jogo: "CEBC X ADELIETA",
+    jogo: "CEBC X ADELIETA RAMALHO",
     modalidade: "Futsal Masculino Sub 11",
     ordem: "jogo 103",
     local: "Adelieta Ramalho",
@@ -1245,7 +1245,7 @@ export const jogos = [
   {
     data: "2025-11-27",
     hora: "13:20",
-    jogo: "ACM X ADELIETA RTAMALHO",
+    jogo: "ACM X ADELIETA RAMALHO",
     modalidade: "Handebol Feminino Sub 9",
     ordem: "jogo 152",
     local: "CETI",
@@ -1253,7 +1253,7 @@ export const jogos = [
   {
     data: "2025-11-27",
     hora: "14:00",
-    jogo: "ADELIETA RTAMALHO X TEODULO LEITE",
+    jogo: "ADELIETA RAMALHO X TEODULO LEITE",
     modalidade: "Baleado Masculino Sub 8",
     ordem: "jogo 153",
     local: "CETI",
@@ -1751,7 +1751,7 @@ export const jogos = [
   {
     data: "2025-11-28",
     hora: "08:40",
-    jogo: "EMILIANOI ZAPATA X CEBN",
+    jogo: "EMILIANO ZAPATA X CEBN",
     modalidade: "Futsal Masculino Sub 15",
     ordem: "jogo 214",
     local: "CEJA",
@@ -1915,7 +1915,7 @@ export const jogos = [
   {
     data: "2025-11-28",
     hora: "14:40",
-    jogo: "ADELIETA X ACM",
+    jogo: "ADELIETA RAMALHO X ACM",
     modalidade: "Futsal Masculino Sub 8",
     ordem: "jogo 234",
     local: "CETI",
@@ -1931,7 +1931,7 @@ export const jogos = [
   {
     data: "2025-11-28",
     hora: "16:40",
-    jogo: "ADELIETA RTAMALHO X EMILIANO ZAPATA",
+    jogo: "ADELIETA RAMALHO X EMILIANO ZAPATA",
     modalidade: "Futsal Masculino Sub 9",
     ordem: "jogo 236",
     local: "CETI",
