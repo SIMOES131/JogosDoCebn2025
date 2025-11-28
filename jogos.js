@@ -1015,7 +1015,7 @@ export const jogos = [
   {
     data: "2025-11-27",
     hora: "14:00",
-    jogo: "MARLENE SANTANA X JOSE DIAS",
+    jogo: "MARLENE SANTANA X JOSÉ DIAS",
     modalidade: "Futsal Masculino Sub 8",
     ordem: "jogo 124",
     local: "Maria da Glória",
@@ -1031,7 +1031,7 @@ export const jogos = [
   {
     data: "2025-11-27",
     hora: "15:20",
-    jogo: "CEBN X JOSE DIAS",
+    jogo: "CEBN X JOSÉ DIAS",
     modalidade: "Futsal Feminino Sub 13",
     ordem: "jogo 126",
     local: "Maria da Glória",
@@ -1047,7 +1047,7 @@ export const jogos = [
   {
     data: "2025-11-27",
     hora: "16:40",
-    jogo: "FRANCISCO AMORIM X JOSE DIAS",
+    jogo: "FRANCISCO AMORIM X JOSÉ DIAS",
     modalidade: "Futsal Masculino Sub 13",
     ordem: "jogo 128",
     local: "Maria da Glória",
@@ -1081,7 +1081,7 @@ export const jogos = [
   {
     data: "2025-11-27",
     hora: "10:00",
-    jogo: "CEBC X JOSE DIAS",
+    jogo: "CEBC X JOSÉ DIAS",
     modalidade: "Handebol Masculino Sub 15",
     ordem: "jogo 132",
     local: "CEJA",
@@ -1531,7 +1531,7 @@ export const jogos = [
   {
     data: "2025-11-28",
     hora: "10:00",
-    jogo: "PORTAL DO SABER X JOSE DIAS",
+    jogo: "PORTAL DO SABER X JOSÉ DIAS",
     modalidade: "Baleado Feminino Sub 11",
     ordem: "jogo 187",
     local: "Adelieta Ramalho",
@@ -1563,7 +1563,7 @@ export const jogos = [
   {
     data: "2025-11-28",
     hora: "12:00",
-    jogo: "JOSE DIAS X MANOEL RAMOS",
+    jogo: "JOSÉ DIAS X MANOEL RAMOS",
     modalidade: "Baleado Masculino Sub 11",
     ordem: "jogo 191",
     local: "Adelieta Ramalho",
@@ -1611,7 +1611,7 @@ export const jogos = [
   {
     data: "2025-11-28",
     hora: "16:00",
-    jogo: "JOSE DIAS X ADELIETA RAMALHO",
+    jogo: "JOSÉ DIAS X ADELIETA RAMALHO",
     modalidade: "Baleado Masculino Sub 11",
     ordem: "jogo 197",
     local: "Adelieta Ramalho",
@@ -1661,7 +1661,7 @@ export const jogos = [
   {
     data: "2025-11-28",
     hora: "10:40",
-    jogo: "CEJA X JOSE DIAS",
+    jogo: "CEJA X JOSÉ DIAS",
     modalidade: "Futsal Feminino Sub 13",
     ordem: "jogo 203",
     local: "Maria da Glória",
